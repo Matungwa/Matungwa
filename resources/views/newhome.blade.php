@@ -9,8 +9,7 @@
 </head>
 <body>
         <div class="container-fluid">
-            <!--<img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>-->
-            <div>
+            <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>
                 <div class="dropdown-menu">
                     <button class="dropdown-button">Menu</button>
                     <div class="dropdown-content">
@@ -18,7 +17,6 @@
                       <a href="#">Forma1</a>
                       <a href="#">Formb1</a>
                     </div>
-            </div>
             <div class="d-flex aligns-items-center justify-content-center card text-center w-75 position-absolute top-50 start-50 translate-middle" >
 
                 <div class="card">
@@ -51,7 +49,7 @@
     .dropdown-button:hover {
       background-color: #3e8e41;
     }
-    dropdown-menu {
+    .dropdown-menu {
   position: relative;
   display: inline-block;
 }
