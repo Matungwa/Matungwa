@@ -9,7 +9,7 @@
 </head>
 <body>
         <div class="container-fluid">
-            <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>
+            <!--<img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>-->
             <div>
                 <div class="dropdown-menu">
                     <button class="dropdown-button">Menu</button>
