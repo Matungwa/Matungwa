@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\logginginController;
 use App\Http\Controllers\registrationController;
+use App\Http\Controllers\newhomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,4 +21,6 @@ Route::get('/', [homeController::class,'homeIndex']
 Route::get('/login', [logginginController::class,'logginginIndex']
 );
 Route::get('/registration', [registrationController::class,'registrationIndex']
+);
+Route::get('/newhome', [newhomeController::class,'newhomeIndex']
 );
