@@ -9,7 +9,7 @@
 </head>
 <body>
         <div class="container-fluid">
-            <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>
+            <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="wcfbanner"/>
             <div class="dropdown-menu">
                 <div class="dropdown-content">
                   <a href="#">Home</a>
@@ -37,8 +37,8 @@
 
 
     .dropdown-menu {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  display: none;
 }
 
 /* Style the dropdown content (hidden by default) */
