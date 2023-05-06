@@ -135,9 +135,18 @@ div.card{
 <body>
     <div class="container-fluid">
         <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>
+        <div class="dropdown-menu">
+            <button class="dropdown-button">Menu</button>
+            <div class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">Forma1</a>
+              <a href="#">Formb1</a>
+            </div>
         <div class="d-flex aligns-items-center justify-content-center card text-center w-75 position-absolute top-50 start-50 translate-middle" >
-<!--https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png-->
-            <div class="card">
+
+            <!--https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png-->
+
+<div class="card">
             <div class="card-body">
                 <form action="dataInsert" method="POST">
                     @csrf
