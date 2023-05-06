@@ -79,5 +79,47 @@
 .dropdown-menu:hover .dropdown-content {
   display: block;
 }
+div.card{
+                        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                        text-align: center;
+
+                    }
+                    input[type=text] {
+                        width: 60%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        background-color: #d4eff7;
+                        border-bottom:solid rgb(39, 64, 75);
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    input[type=email] {
+                        width: 60%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        background-color: #d4eff7;
+                        border-bottom:solid rgb(39, 64, 75);
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    input[type=password] {
+                        width: 60%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        background-color: #d4eff7;
+                        border-bottom:solid rgb(39, 64, 75);
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    .card-title{
+                            color: rgb(3, 47, 61);}
+
+                 div.btn btn-primary {
+                        width: 60%;
+                        padding: 12px 20px;
+                        margin: 8px 0;}
 </style>
 </html>
