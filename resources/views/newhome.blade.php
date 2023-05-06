@@ -16,12 +16,12 @@
             <div class="card-body">
                 <form action="dataInsert" method="POST">
                     @csrf
-          <h5 class="card-title">WCF LOGIN PORTAL</h5>
-          <div class="card-title"><h3>Hello!</h3><br><p>Get ready to log in</p></div>
+          <h5 class="card-title">DIRECTOR/HEAD OF UNIT</h5>
+          <div class="card-title"><h3>Hello!</h3><br><p>Please authenticate user</p></div>
           <input type="text" id="idnumb" placeholder="Staff ID number" ><br>
           <input type="email" id="email" placeholder="Email"><br>
           <input type="password" id="pword" placeholder="Password"><br>
-          <a href="#" class="btn btn-primary">login</a>
+          <a href="#" class="btn btn-primary">Approve</a>
                 </form>
         </div>
       </div>
