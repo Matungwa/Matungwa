@@ -10,13 +10,13 @@
 <body>
         <div class="container-fluid">
             <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>
-                    <div class="d-flex aligns-items-center justify-content-center card text-center w-75 position-absolute top-50 start-50 translate-middle" >
-                        <div class="dropdown-menu">
-                            <div class="dropdown-content">
-                              <a href="#">Home</a>
-                              <a href="#">Forma1</a>
-                              <a href="#">Formb1</a>
-                            </div>
+            <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#">Home</a>
+                  <a href="#">Forma1</a>
+                  <a href="#">Formb1</a>
+                </div>
+            <div class="d-flex aligns-items-center justify-content-center card text-center w-75 position-absolute top-50 start-50 translate-middle" >
                         <div class="card">
                 <div class="card-body">
                     <form action="dataInsert" method="POST">
