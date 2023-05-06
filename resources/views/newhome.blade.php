@@ -10,14 +10,14 @@
 <body>
         <div class="container-fluid">
             <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>
-                <div class="dropdown-menu">
-                    <div class="dropdown-content">
-                      <a href="#">Home</a>
-                      <a href="#">Forma1</a>
-                      <a href="#">Formb1</a>
-                    </div>
                     <div class="d-flex aligns-items-center justify-content-center card text-center w-75 position-absolute top-50 start-50 translate-middle" >
-                <div class="card">
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                              <a href="#">Home</a>
+                              <a href="#">Forma1</a>
+                              <a href="#">Formb1</a>
+                            </div>
+                        <div class="card">
                 <div class="card-body">
                     <form action="dataInsert" method="POST">
                         @csrf
@@ -49,22 +49,6 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-}
-
-/* Style the links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-content a:hover {
-  background-color: #f1f1f1
-}
-
-/* Show the dropdown menu on hover */
-.dropdown-menu:hover .dropdown-content {
-  display: block;
 }
 div.card{
                         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
