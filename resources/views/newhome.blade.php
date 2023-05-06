@@ -20,7 +20,6 @@
           <div class="card-title"><h3>Hello!</h3><br><p>Please authenticate user</p></div>
           <input type="text" id="idnumb" placeholder="Staff ID number" ><br>
           <input type="email" id="email" placeholder="Email"><br>
-          <input type="password" id="pword" placeholder="Password"><br>
           <a href="#" class="btn btn-primary">Approve</a>
                 </form>
         </div>
