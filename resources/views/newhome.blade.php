@@ -8,49 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="container-fluid">
-            <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="wcfbanner"/>
-            <div class="dropdown-menu">
-                <div class="dropdown-content">
-                  <a href="#">Home</a>
-                  <a href="#">Forma1</a>
-                  <a href="#">Formb1</a>
-                </div>
-            <div class="d-flex aligns-items-center justify-content-center card text-center w-75 position-absolute top-50 start-50 translate-middle" >
-                        <div class="card">
-                <div class="card-body">
-                    <form action="dataInsert" method="POST">
-                        @csrf
-              <h5 class="card-title">WCF LOGIN PORTAL</h5>
-              <div class="card-title"><h3>Hello!</h3><br><p>Get ready to log in</p></div>
-              <input type="text" id="idnumb" placeholder="Staff ID number" ><br>
-              <input type="email" id="email" placeholder="Email"><br>
-              <input type="password" id="pword" placeholder="Password"><br>
-              <a href="#" class="btn btn-primary">login</a>
-                    </form>
-            </div>
-          </div>
+    <div class="container-fluid">
+        <img src="https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png" class="card-img" alt="Stony Beach"/>
+        <div class="d-flex aligns-items-center justify-content-center card text-center w-75 position-absolute top-50 start-50 translate-middle" >
+<!--https://portal.wcf.go.tz/public/template/frontend/assets/landing/images/en_banner.png-->
+            <div class="card">
+            <div class="card-body">
+                <form action="dataInsert" method="POST">
+                    @csrf
+          <h5 class="card-title">WCF LOGIN PORTAL</h5>
+          <div class="card-title"><h3>Hello!</h3><br><p>Get ready to log in</p></div>
+          <input type="text" id="idnumb" placeholder="Staff ID number" ><br>
+          <input type="email" id="email" placeholder="Email"><br>
+          <input type="password" id="pword" placeholder="Password"><br>
+          <a href="#" class="btn btn-primary">login</a>
+                </form>
         </div>
-</body>
-<style>
-
-
-
-    .dropdown-menu {
-  position: absolute;
-  display: none;
-}
-
-/* Style the dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-div.card{
+      </div>
+    </div>
+                </div>
+                <style>
+                    div.card{
                         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
                         text-align: center;
 
@@ -92,5 +70,6 @@ div.card{
                         width: 60%;
                         padding: 12px 20px;
                         margin: 8px 0;}
-</style>
+                            </style>
+</body>
 </html>
