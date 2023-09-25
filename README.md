@@ -7,13 +7,13 @@
 
 <p align="left"> <a href="https://twitter.com/_karenmatungwa" target="blank"><img src="https://img.shields.io/twitter/follow/_karenmatungwa?logo=twitter&style=for-the-badge" alt="_karenmatungwa" /></a> </p>
 
-- 🌱 I’m currently learning **Laravel and Animations**
+- 🌱 I’m currently learning ****
 
-- 👯 I’m looking to collaborate on **Animation**
+- 👯 I’m looking to collaborate on ****
 
 - 👨‍💻 All of my projects are available at [https://gitHub.com/Matungwa](https://gitHub.com/Matungwa)
 
-- 💬 Ask me about **Html and Css**
+- 💬 Ask me about ****
 
 - 📫 How to reach me **karenmatungwa0584@gmail.com**
 
