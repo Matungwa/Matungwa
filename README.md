@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Karen Matungwa</h1>
-<h3 align="center">A passionate frontend developer from Tanzania</h3>
+<h1 align="center">Hi 👋, I'm Karen</h1>
+<h3 align="center"></h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=matungwa&label=Profile%20views&color=0e75b6&style=flat" alt="matungwa" /> </p>
 
